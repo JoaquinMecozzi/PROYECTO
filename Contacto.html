@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./CSS/index.css"></LINk>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <script>
+        var nombre;
+        var correo;
+        var telefono;
+        var empresa;
+        var consulta;
+        function validar(){
+            nombre=document.getElementById("nombre");
+            correo=document.getElementById("mail");
+            empresa=document.getElementById("empresa");
+            telefono=document.getElementById("telefono");
+            consulta=document.getElementById("consulta")
+            if(nombre.value==""){
+                alert("NOMBRE: COMPLETE EL SIGUIENTE CAMPO");
+            }else if(correo.value==""){
+                alert("EMAIL: COMPLETE EL SIGUIENTE CAMPO");
+            }else if(empresa.value==""){
+                alert("EMPRESA: COMPLETE EL SIGUIENTE CAMPO");
+            }else 
+            if(telefono.value==""){
+                alert("TELEFONO: COMPLETE EL SIGUIENTE CAMPO");
+            }else if(consulta.value==""){
+                alert("CONSULTA:DEBE INDICAR SU DUDA O PREGUNTA:");
+            }else{
+                alert ("Consulta enviada");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a class="logop" href="./index.html"><img src="./IMAGENES/LOGO ENCA.png" width="150px" height="150px"></a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./Sobre Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./Compra Mayorista.html">Compra Mayorista</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                    <li><a href="./Envios.html">Envios</a></li>
+                
+                </ul>
+            </nav>
+            
+        </div>
+        
+        
+    </header>
+
+
+    <div class="contenedorcontacto">
+        <div class="divseparado">
+            <h2 class="consulta">CONTACTANOS</h2> <hr class="division">
+            <br>
+            
+            <p class="textoplano">Si querés comunicarte con nosotros completa el formulario y te vamos a estar contactando.
+                <br>
+                Gracias!
+            </p>
+            <hr class="junior">
+            <br>
+            <h2 class="consulta">DATOS DE CONTACTO</h2> <hr class="division">
+                <br>
+            <ul>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i><b> Direccion:</b> <p> Campichuelo 2072, AVELLANEDA GERLI. CP:1870</p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i> <b> Telefono:</b> <p>  (011) 3842-8284 / 6948-0298</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> <b> E-MAIL:</b> <p>  papeleralabotica@gmail.com</p>
+                </li>
+            </ul> 
+            <hr class="junior">
+            <h2 class="consulta">HORARIO</h2> <hr class="division">
+                <br>
+                <ul>
+                    <li>
+                        <i class="far fa-clock"></i><b> Lunes a viernes:</b> <p> 9:30 Hs. a 13:00 Hs. </p>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i> <b> Sabado:</b> <p> 9:30 Hs. a 13:00 Hs.</p>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i> <b> Domingo</b> <p>  Cerrado</p>
+                    </li>
+                </ul>   
+
+        </div>
+        <div class="divseparado">
+            <h2 class="consulta">DEJANOS TU CONSULTA</h2> <hr class="division"> <br>
+            <form action="">
+                <label>NOMBRE<br><input class="input" type="text" id="nombre" placeholder="Juan Perez"></label><br>
+                <label>E-MAIL<br><input class="input" type="text"    id="mail"  placeholder="papeleralabotica@gmail.com"></label><br>
+                <label>EMPRESA<br><input class="input" type="text" id="empresa" placeholder="Papelera La Botica"><br></label>
+                <label>TELEFONO<br><input class="input" type="number" id="telefono" placeholder="11-6948-0298"><br></label>
+                <label>RECIBIR LISTA DE PRECIOS</label><br>
+                <input type="radio" name="lista" value="si"> Si
+
+                <input type="radio" name="lista" value="no"> No
+                 <br>
+
+   
+                <br>
+                <label >MENSAJE</label><br>
+                <textarea  name="mensaje" id="consulta" cols="80" rows="10" placeholder="Escriba aqui su consulta"></textarea>
+                
+                <input type="submit" name="" id="btnGuardar" value="Guardar" onclick="validar()"><br><br><hr >
+                <h2 class="consulta">MAPA</h2> <hr class="division"> <br>
+                <iframe class="mapacontacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10118.044915949671!2d-58.36852280580063!3d-34.69584451511654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333751dc166db%3A0xda0309248f763e83!2sPapelera%20La%20Botica!5e0!3m2!1ses!2sar!4v1634071732192!5m2!1ses!2sar" width="610  " height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </form>
+        </div>
+
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=+5491169480298" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-main">
+                   
+                <div class="footer-columna">
+                    <ul class="ul1">
+                        <H2 class="title-footer1"><i class="fas fa-angle-right"></i>    Informacion</H2>
+                        <br>
+                        <li ><a href="./index.html" class="li1"><i class="fas fa-angle-right"></i> Inicio</a></li>
+                        <br>
+                        <li ><a href="./Sobre Nosotros.html" class="li1"><i class="fas fa-angle-right"></i> Sobre Nosotros</a></li>
+                        <br>
+                        <li ><a href="./Compra Mayorista.html" class="li1"><i class="fas fa-angle-right"></i> Compra Mayorista</a></li>
+                        <br>
+                        <li ><a href="./Contacto.html" class="li1"><i class="fas fa-angle-right"></i> Contacto</a></li>
+                        <br>
+                        <li ><a href="./Envios.html" class="li1"><i class="fas fa-angle-right"></i> Envios</a></li>
+                        
+                    
+                    </ul>
+                </div>
+                <div class="footer-columna">
+                    <ul class="ul3">  
+                        <H2 class="title-footer3">Locacion y Horarios</H2> 
+                        <li> <i class="fas fa-map-marker-alt"></i>  Ubicacion:
+                        <br>
+                        Campichuelo 2072, Avellaneda - Bs. As. - Argentina</li>
+                        <br>
+                        
+                        <li><i class="far fa-clock"></i> Horarios:
+                        <br>
+                        L a V de 9.30 a 13.00hs / Sáb. 9.30 a 13.00hs</li>
+                        <br>
+                        
+                        <br>
+                      
+                       
+                    <ul>
+                    
+                </div>
+
+                <div class="footer-columna">
+                    <ul class="ul2">   
+                        <H2 class="title-footer2">Contacto</H2>
+                        <li> <i class="fas fa-phone-alt"></i> Teléfonos:
+                        <br>
+
+                        (011) 3842-8284 / 6948-0298</li>
+                        <br>
+                        <br>
+                        <li><i class="fas fa-envelope"></i> Escribinos un e-mail:
+                        <br>
+                        papeleralabotica@gmail.com</li>
+                    <ul>
+                </div>
+                    
+                   
+                  
+            <div>
+           
+          <div class="mapa">
+              <h1 class="visitanos">¡VENI A CONOCERNOS!</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10118.044915949671!2d-58.36852280580063!3d-34.69584451511654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333751dc166db%3A0xda0309248f763e83!2sPapelera%20La%20Botica!5e0!3m2!1ses!2sar!4v1634071732192!5m2!1ses!2sar" width="1000" height="400" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+    </footer>
+    <div class="grupo-2">
+        <small>&copy;2021 <b>Papelera La Botica</b> - Todos Los Derechos Reservados</small>
+    </div>
+</body>
+</html>

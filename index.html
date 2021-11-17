@@ -5,197 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papelera La Botica</title>
-    <style>
-        body{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: black;
-            font-size: 1.2 rem;
-            line-height: 1.4 em;
-            margin: 0;
-        }
-        p{
-            margin-bottom: 1.6 em;
-        
-        }
-        h1{
-            line-height: 1.3em;
-            font-size: 2em;
-        }
-        .container{
-            width: 85%;
-            max-width: 850 px;
-            margin: 0 auto;
-        }
-        .header{
-            background: black;
-            color: white;
-            padding: 2rem 0;
-        }
-
-        .header a{
-            color: white;
-            text-decoration: none;
-        }
-
-        .logo-nav-container{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-        }
-        .navigation ul{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        .navigation ul li{
-            display: inline-block; 
-        }
-        .navigation ul li a{
-            display: block;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-        }
-      
-        h3{
-            font-size: 1.3em;
-            font: georgia;
-            color: black;
-            background-color: yellow;
-            text-align: center;
-            margin: 0%;
-            padding: 1%;
-        }
-        
-        
-        footer{
-            background-color: rgb(73, 71, 71);
-            color: white;
-            width: 100%;
-        
-        }
-        h2{
-            color: white;
-            font-size: 1,3em;
-
-        }
-      
-        .grupo-2{
-            text-align: center;
-            color: white;
-            background-color: black;
-            
-            margin-top: 3% 3%;
-        }
-        
-        .footer-main{
-            width: 100%;
-            max-width: 1000px ;
-            margin: auto;
-            padding: 15px 5px;
-            display: flex;
-            flex-wrap: wrap ;
-        }
-        
-        .footer-main .footer-columna{
-            width: calc(100% / 3);
-            text-align: justify;
-        }
-        
-        .ul1{
-           
-            text-decoration: none;
-            list-style: none;
-        }
-        .li1{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            color: white;
-            text-align: right;
-            text-decoration: none;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 1rem;
-        }
-        .ul2{
-            margin:0 0 50px 0 ;
-            padding: 0;
-            list-style: none;
-            color: white;
-            text-align: left;
-            text-decoration: none;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 1rem;
-        }
-
-        .ul3{
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            color: white;
-            text-align: left;
-            text-decoration: none;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 1rem;
-            
-        }
-        
-        .title-footer1{
-            text-align: left;
-        }
-        .title-footer2{
-            text-align: left;
-        }
-        .title-footer3{
-            text-align: left;
-        }
-        .visit{
-            text-align: center;
-            color: yellow;
-        }
-        .mapa{
-            width: 100%;
-            max-width: 1000px;
-            max-height: 500px;
-        }
-    </style>
+    <link rel="stylesheet" href="./CSS/index.css"></LINk>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <h3>
+    <h3 class="h3sup">
          ¡¡¡ENVIOS A TODO EL PAIS!!!3 Y 6 CUOTAS SIN INTERES EN NUESTRA TIENDA ONLINE VISITANOS!
     </h3>
    
     <header class="header">
         <div class="container logo-nav-container">
-            <a href="LOGO"><img src="./logo termi.png"></a>
+            <a class="logop" href="./index.html"><img src="./IMAGENES/LOGO ENCA.png" width="150px" height="150px"></a>
             <nav class="navigation">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Compra Mayorista</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Envios</a></li>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./Sobre Nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./Compra Mayorista.html">Compra Mayorista</a></li>
+                    <li><a href="./Contacto.html">Contacto</a></li>
+                    <li><a href="./Envios.html">Envios</a></li>
                 
                 </ul>
             </nav>
             
         </div>
+        
     </header>
-   
-    <main class="main">
-        <div class="container">
-            <h1>
-                racata
-            </h1>
-            
-        </div>
 
+    <div id="a-slider">
+  
+        <ul class="slider">
+          <li id="slide1">
+          
+            <img src="./IMAGENES/SLIDER.png"/>
+          </li>
+          <li id="slide2">
+            <img src="./IMAGENES/VENTAS POR MAYOR Y MENOR.png"/>
+          </li>
+          <li id="slide3">
+            <img src="./IMAGENES/¿SOS MAYORISTA.png" alt="">
+          </li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul class="menu">
+          <li>
+            <a href="#slide1">1</a>
+          </li>
+          <li>
+            <a href="#slide2">2</a>
+          </li>
+           <li>
+            <a href="#slide3">3</a>
+          </li>
+        </ul>
+        
+    </div>
+
+    <main class="main">
+        
+        <h1 class="h1cont">NUESTROS PRODUCTOS</h1>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">ALUMINIO      </H1><img src="./IMAGENES/ALUMINIO.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BAND. DE CARTON</H1><img src="./IMAGENES/CARTON.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BAND. DE EXPANDIDO</H1><img src="./IMAGENES/BANDEJAS DE EXPANIDO.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BAND. DE PLASTICAS</H1><img src="./IMAGENES/PLASTICAS.png" alt=""></div>
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">BANDITAS ELASTICAS</H1><img src="./IMAGENES/BANDITAS ELASTICAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BLONDAS           </H1><img src="./IMAGENES/BLONDAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOBINAS FANTASIA</H1><img src="./IMAGENES/BOBINAS FANTASIA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS DE ARRANQUE</H1><img src="./IMAGENES/BOLSAS DE ARRANQUE.png" alt=""></div>
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">BOLSAS CAMISETAS</H1><img src="./IMAGENES/BOLSAS CAMISETAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS DE FREEZER</H1><img src="./IMAGENES/bolsas freezer.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS DE RES. Y CONS.</H1><img src="./IMAGENES/BOLSAS DE RESIDUOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS FAST FOOD</H1><img src="./IMAGENES/BOLSAS FD.png" alt=""></div>
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">BOLSAS FRISELINA</H1><img src="./IMAGENES/BOLSAS FRISELINA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS DE PAPEL</H1><img src="./IMAGENES/BOLSAS CON MANIJA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS KRAFT Y SULFITO</H1><img src="./IMAGENES/BOLSAS KRAFT Y SULFITO.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">BOLSAS RIÑON</H1><img src="./IMAGENES/BOLSAS RIÑON.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">BOMBONERAS DE CARTON</H1><img src="./IMAGENES/BOMBONERAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CAJAS DE EMBALAJE</H1><img src="./IMAGENES/CAJAS DE EMBALAJE.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CAJAS DESAYUNO/TORTAS</H1><img src="./IMAGENES/CAJAS PARA TORTAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CAJA DE PIZZA Y MICRO</H1><img src="./IMAGENES/CAJAS DE PIZZA Y MICROCORRUGADO.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">CARTONES VARIOS</H1><img src="./IMAGENES/CARTONES VARIOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CINTAS ADHESIVAS/PAPEL</H1><img src="./IMAGENES/CINTAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CINTAS PARA MOÑOS</H1><img src="./IMAGENES/CINTAS PARA MOÑOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">CUBIERTOS PLASTICOS</H1><img src="./IMAGENES/CUBIERTOS PLASTICOS.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">GUANTES DESCARTABLES</H1><img src="./IMAGENES/GUANTES.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">HIGIENE</H1><img src="./IMAGENES/PAPELHIG Y COCINA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">HILOS Y CINTAS</H1><img src="./IMAGENES/HILOS Y CINTAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">LAMINAS PARA FIAMBRE</H1><img src="./IMAGENES/LAMINAS DE FIAMBRE.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">ART. DE LIBRERIA  </H1><img src="./IMAGENES/ART. LIBRERIA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">MOLDES DE PAPEL VARIOS</H1><img src="./IMAGENES/MOLDES.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">MOÑOS</H1><img src="./IMAGENES/MOÑOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">PAPEL PARA REGALO</H1><img src="./IMAGENES/PAPELES FANTASIA.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">PAPELES VARIOS</H1><img src="./IMAGENES/PAPEL PARAFINADO.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">PIROTINES</H1><img src="./IMAGENES/PIROTINES.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">PLATOS DORADOS</H1><img src="./IMAGENES/PLATOS DORADOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">POTES</H1><img src="./IMAGENES/POTES.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">RESMAS DE PAPEL</H1><img src="./IMAGENES/RESMAS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">ROLLO DE FILM Y MANTECA</H1><img src="./IMAGENES/PVC.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">ROLLO REGISTRADOR/MOTEX</H1><img src="./IMAGENES/REGISTRADORA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">SERVILLETAS</H1><img src="./IMAGENES/SERVILLETAS.png" alt=""></div>
+
+        </div>
+        <div class="container1">
+            <div class="productos"><H1 class="titleproductos">STREECH</H1><img src="./IMAGENES/STREECH.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">VASOS</H1><img src="./IMAGENES/VASOS.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">VIRUTA DE PAPEL</H1><img src="./IMAGENES/VIRUTA.png" alt=""></div>
+            <div class="productos"><H1 class="titleproductos">POLIPROPILENO</H1><img src="./IMAGENES/POLIPROPILENO.png" alt=""></div>
+
+        </div>
     </main>
 
+    <a href="https://api.whatsapp.com/send?phone=+5491169480298" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
 
+    <div class="conti">
 
-
+          <div class="imga1" id="1da"><h1 class="h10">FORMAS DE ENVIO</h1><H2 class="descr">ENVIO RAPIDO Y SEGURO</H2><img src="./IMAGENES/tarjetaenvios.png" alt=""></div>
+          <div class="imga1" id="2da"><H1 class="h10">FORMAS DE PAGO</H1><H2 class="descr">PAGA CON TARJETA O EN EFECTIVO</H2><img src="./IMAGENES/tarjetacuotas.png" alt=""></div>
+          <div class="imga1"id="3da"><H1 class="h10">COMPRA PROTEGIDA</H1><H2 class="descr">RECIBI LA COMPRA EN EL DIA EN TU DOMICILIO </H2><img src="./IMAGENES/tarjetatiemposeguridad.png" alt=""></div>
+    </div>
 
     <footer>
         <div class="footer-main">
@@ -203,17 +165,17 @@
                    
                 <div class="footer-columna">
                     <ul class="ul1">
-                        <H2 class="title-footer1">Informacion</H2>
+                        <H2 class="title-footer1"><i class="fas fa-angle-right"></i>    Informacion</H2>
                         <br>
-                        <li ><a href="#" class="li1">Inicio</a></li>
+                        <li ><a href="./index.html" class="li1"><i class="fas fa-angle-right"></i> Inicio</a></li>
                         <br>
-                        <li ><a href="#" class="li1">Sobre Nosotros</a></li>
+                        <li ><a href="./Sobre Nosotros.html" class="li1"><i class="fas fa-angle-right"></i> Sobre Nosotros</a></li>
                         <br>
-                        <li ><a href="#" class="li1">Compra Mayorista</a></li>
+                        <li ><a href="./Compra Mayorista.html" class="li1"><i class="fas fa-angle-right"></i> Compra Mayorista</a></li>
                         <br>
-                        <li ><a href="#" class="li1">Contacto</a></li>
+                        <li ><a href="./Contacto.html" class="li1"><i class="fas fa-angle-right"></i> Contacto</a></li>
                         <br>
-                        <li ><a href="#" class="li1">Envios</a></li>
+                        <li ><a href="./Envios.html" class="li1"><i class="fas fa-angle-right"></i> Envios</a></li>
                         
                     
                     </ul>
@@ -221,14 +183,14 @@
                 <div class="footer-columna">
                     <ul class="ul3">  
                         <H2 class="title-footer3">Locacion y Horarios</H2> 
-                        <li> Ubicacion:
+                        <li> <i class="fas fa-map-marker-alt"></i>  Ubicacion:
                         <br>
                         Campichuelo 2072, Avellaneda - Bs. As. - Argentina</li>
                         <br>
                         
-                        <li> Horarios:
+                        <li><i class="far fa-clock"></i> Horarios:
                         <br>
-                        L a V de 7.30 a 18.00hs / Sáb. 7.30 a 13.00hs</li>
+                        L a V de 9.30 a 13.00hs / Sáb. 7.30 a 13.00hs</li>
                         <br>
                         
                         <br>
@@ -241,13 +203,13 @@
                 <div class="footer-columna">
                     <ul class="ul2">   
                         <H2 class="title-footer2">Contacto</H2>
-                        <li> Teléfonos:
+                        <li> <i class="fas fa-phone-alt"></i> Teléfonos:
                         <br>
 
                         (011) 3842-8284 / 6948-0298</li>
                         <br>
                         <br>
-                        <li> Escribinos un e-mail:
+                        <li><i class="fas fa-envelope"></i> Escribinos un e-mail:
                         <br>
                         papeleralabotica@gmail.com</li>
                     <ul>
@@ -258,8 +220,8 @@
             <div>
            
           <div class="mapa">
-              <h1>VISITANOS</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10118.044915949671!2d-58.36852280580063!3d-34.69584451511654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333751dc166db%3A0xda0309248f763e83!2sPapelera%20La%20Botica!5e0!3m2!1ses!2sar!4v1634071732192!5m2!1ses!2sar" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <h1 class="visitanos">¡VENI A CONOCERNOS!</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10118.044915949671!2d-58.36852280580063!3d-34.69584451511654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a333751dc166db%3A0xda0309248f763e83!2sPapelera%20La%20Botica!5e0!3m2!1ses!2sar!4v1634071732192!5m2!1ses!2sar" width="1000" height="400" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
           </div>
     </footer>
     <div class="grupo-2">
